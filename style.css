@@ -10,7 +10,7 @@ body{
 #Left{
     max-height: 100%;
     max-width: 16%;
-    background-color: rgb(207, 200, 200);
+    background-color: rgb(241, 240, 240);
     margin-left: 2px 2px;
     padding: 15px;
 }
@@ -60,17 +60,29 @@ footer{
     background-color: rgb(224, 116, 116);
     color: rgb(255, 255, 255);
     padding: 3px 15px;
+    margin: 2px 64px;
 }
 .right-img img{
     height: 764px;
-    width: 866px;
+    width: 1061px;
     margin-left: 160px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
     
     
-    margin-left: 391px;
+    margin-left: 118px;
 }
 .right-text{
-    padding: 191px 47px;
+    padding: 140px 47px;
 }
 
+.Right .right-h-1{
+    font-size: 75px;
+    margin-left: 63px;
+    margin-bottom: -16px
+px
+;
+}
+p{
+    padding: 3px 69px;
 }

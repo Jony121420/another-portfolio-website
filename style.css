@@ -1,11 +1,76 @@
 body{
-    margin: 0;
-    padding: 0;
+   
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+   
+    
+    
+
+}
+#Left{
+    max-height: 100%;
+    max-width: 16%;
+    background-color: rgb(207, 200, 200);
+    margin-left: 2px 2px;
+    padding: 15px;
 }
 .picture{
-    height: 140px;
-    width: 140px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    background-color: red;
-    margin: 20px 20px;
+    background-image: url(images/picture1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -266px;
+    background-position-y: -178px;
+    margin: 20px 18px;
+    
+}
+ h2{
+    margin-left: 38px;
+    margin-top: 10px;
+}
+h3{
+    margin: 3px 27px;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 26px;
+}
+.list li:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    list-style: none;
+    font-size:20px;
+    color: black;
+}
+footer{
+    margin-left: 10px;
+    padding-top: 31px;
+}
+.Right{
+    display: flex;
+    
+    margin-left: 10px;
+    width: 80%;
+}
+ button{
+    background-color: rgb(224, 116, 116);
+    color: rgb(255, 255, 255);
+    padding: 3px 15px;
+}
+.right-img img{
+    height: 764px;
+    width: 866px;
+    margin-left: 160px;
+    
+    
+    margin-left: 391px;
+}
+.right-text{
+    padding: 191px 47px;
+}
+
 }
